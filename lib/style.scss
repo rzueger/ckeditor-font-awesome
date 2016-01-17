@@ -1,0 +1,37 @@
+.icon-picker {
+  height: 400px !important;
+  overflow: auto;
+
+  .icons-container {
+    overflow: hidden;
+    position: relative;
+    white-space: normal;
+  }
+
+  .icon {
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    outline: none;
+    font-size: 18px; 
+  }
+
+  .icon, .icon * {
+    cursor: pointer;
+  }
+
+  .icon.over {
+    background-color: #fafafa;
+    border-color: #bfbfbf;
+  }
+
+  .icon.selected {
+    background-color: #eaeaea;
+    border-color: #bfbfbf;
+  }
+}
+
